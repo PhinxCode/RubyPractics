@@ -28,14 +28,19 @@ class Program
         // notas.NotasEscolares();
         /***********************************************************/
 
-        // ImprimirNumeros imprimirNumeros = new ImprimirNumeros();
+
+        ImprimirNumeros imprimirNumeros = new ImprimirNumeros();
         // imprimirNumeros.ImprimirFor();
+
+        // imprimirNumeros.ImprimirWhile();
+
+        imprimirNumeros.ImprimirDoWhile();
 
         /***********************************************************/
 
-        Casting casting = new Casting();
-        casting.changeValue();
+        // Casting casting = new Casting();
+        // casting.changeValue();
 
-        Console.WriteLine(casting);
+        // Console.WriteLine(casting);
     }
 }

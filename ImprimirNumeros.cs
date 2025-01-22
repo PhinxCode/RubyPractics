@@ -14,6 +14,27 @@ namespace Others
                 Console.WriteLine("Número : " + i);
             }
         }
+
+        public void ImprimirWhile()
+        {
+            int i = 1;
+            while (i <= 10)
+            {
+                Console.WriteLine("Número: " + i);
+                i++;
+            }
+        }
+
+        public void ImprimirDoWhile()
+        {
+            int i = 1;
+
+            do
+            {
+                Console.WriteLine("Número: " + i);
+                i++;
+            } while (i <= 10);
+        }
     }
 }
 
