@@ -1,6 +1,7 @@
 ﻿using System;
 using Others;
 using Practicas;
+using RubyPractics;
 
 class Program
 {
@@ -27,7 +28,14 @@ class Program
         // notas.NotasEscolares();
         /***********************************************************/
 
-        ImprimirNumeros imprimirNumeros = new ImprimirNumeros();
-        imprimirNumeros.ImprimirFor();
+        // ImprimirNumeros imprimirNumeros = new ImprimirNumeros();
+        // imprimirNumeros.ImprimirFor();
+
+        /***********************************************************/
+
+        Casting casting = new Casting();
+        casting.changeValue();
+
+        Console.WriteLine(casting);
     }
 }

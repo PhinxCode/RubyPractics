@@ -34,3 +34,8 @@ namespace Others
         }
     }
 }
+/*
+Crea un programa que pida una edad y determine si la persona es menor de
+edad, mayor de edad o si el valor es inválido (menor que 0 o muy grande).
+Usa if/else if/else.
+*/
