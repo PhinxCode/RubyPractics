@@ -42,5 +42,9 @@ class Program
         // casting.changeValue();
 
         // Console.WriteLine(casting);
+
+        /************************************************************/
+        MiBanco banco = new MiBanco();
+        MiBanco.Menu();
     }
 }
