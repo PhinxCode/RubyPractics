@@ -49,7 +49,12 @@ class Program
 
         /*****************************************************************/
 
-        Bank bank = new Bank();
-        bank.BankAccount();
+        // Bank bank = new Bank();
+        // bank.BankAccount();
+
+        /*****/
+
+        CalculadoraArrays calculadoraArrays = new CalculadoraArrays();
+        calculadoraArrays.Calcular();
     }
 }
