@@ -54,7 +54,16 @@ class Program
 
         /*****/
 
-        CalculadoraArrays calculadoraArrays = new CalculadoraArrays();
-        calculadoraArrays.Calcular();
+        // CalculadoraArrays calculadoraArrays = new CalculadoraArrays();
+        // calculadoraArrays.Calcular();
+
+        // CalcularV2 calcularV2 = new CalcularV2();
+        // calcularV2.Calcular2();
+
+        // ParImpar parImpar = new ParImpar();
+        // parImpar.ParImpares();
+
+        opciones opciones = new opciones();
+        opciones.menu();
     }
 }

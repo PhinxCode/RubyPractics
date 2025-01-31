@@ -19,7 +19,7 @@ public class CalculadoraArrays
         Console.WriteLine("Ingrese el primer número");
 
         number[0] = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Ingrese el primer número");
+        Console.WriteLine("Ingrese el segundo número");
 
         number[1] = Convert.ToDouble(Console.ReadLine());
 
